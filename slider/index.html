@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="content">
+
+            <button id="prev" href="#"><i class="fa-solid fa-left-long"></i></button>
+            
+            <div class="slider">
+                <img src="/images/download (1).jfif">
+                <img src="/images/download (2).jfif">
+                <img src="/images/download (3).jfif">
+                <img src="/images/download.jfif">
+            </div>
+
+            <button id="next" href="#"><i class="fa-solid fa-right-long"></i></button>
+
+        </div>
+        
+
+    </div>
+    <script>
+        $(document).ready(function(){
+
+            $('.slider').cycle({
+                fx: 'fade',
+                pause: 1,
+                prev: '#prev',
+                next: '#next',
+            });
+        });
+        
+    </script>
+</body>
+</html>

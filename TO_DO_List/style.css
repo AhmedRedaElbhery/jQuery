@@ -1,0 +1,28 @@
+#container{
+    border: 1px solid blue;
+    margin: 90px auto;
+    background-color: rgb(228, 228, 228);
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+}
+h2{
+    display: flex;
+    justify-self: center;
+    margin: 35px;
+}
+button{
+    display: flex;
+    justify-self: end;
+    margin:10px 10px;
+    font-size: 15px;
+    background-color: #4e75eb;
+    border: 1px solid #4e75eb;
+    color: white;
+    padding: 10px;
+}
+ol li{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}

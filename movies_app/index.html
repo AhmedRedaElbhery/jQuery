@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+    <div data-role="page" id="home">
+
+        <div data-role="header" data-theme="c">
+            <h1> movie listings</h1>
+        </div>
+
+        <div data-role="main">
+            <form id="searchform">
+                <div class="ui-field-contain">
+
+                    <input type="text" name="searchtext" id="searchtext" placeholder="search for a movie...">
+
+                </div>
+
+            </form>
+
+            <ul id="movies" data-role="listview"></ul>
+        </div>
+
+        <div data-role="footer" style="text-align: center;">
+
+            <p>
+                movie App &copy; 2017
+            </p>
+        </div>
+
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.container{
+    background-color: rgb(209, 209, 209);
+    width: 75%;
+    height: 450px;
+    margin: 70px auto;
+    padding: 50px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 600px;
+    height: 450px;
+    margin: 0 20px;
+}
+
+button{
+    width: 70px;
+    margin: 0 50px;
+}
+i{
+    font-size: 30px;
+}
